@@ -7,9 +7,15 @@ if (${CMAKE_VERSION} VERSION_LESS 3.12)
 endif()
 
 set(HEADERS
-  ./include/clox/common.h)
+  ./include/clox/common.h
+  ./include/clox/chunk.h
+  ./include/clox/memory.h
+  ./include/clox/debug.h)
 
 set(SOURCES
+  ./src/chunk.c
+  ./src/memory.c
+  ./src/debug.c
   ${HEADERS})
 
 project(clox
