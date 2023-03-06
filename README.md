@@ -26,8 +26,8 @@
 <ins>CLox implementation (this repo)</ins>
 
 14. Chunks of bytecode (done)
-15. A virtual machine (current)
-16. Scanning on demand
+15. A virtual machine (done)
+16. Scanning on demand (current)
 17. Compiling expressions
 18. Types of values
 19. Strings
