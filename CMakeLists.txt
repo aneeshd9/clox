@@ -12,7 +12,10 @@ set(HEADERS
   ./include/clox/memory.h
   ./include/clox/debug.h
   ./include/clox/value.h
-  ./include/clox/vm.h)
+  ./include/clox/vm.h
+  ./include/clox/compiler.h
+  ./include/clox/scanner.h
+)
 
 set(SOURCES
   ./src/chunk.c
@@ -20,6 +23,8 @@ set(SOURCES
   ./src/debug.c
   ./src/value.c
   ./src/vm.c
+  ./src/compiler.c
+  ./src/scanner.c
   ${HEADERS})
 
 project(clox
