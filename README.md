@@ -27,8 +27,8 @@
 
 14. Chunks of bytecode (done)
 15. A virtual machine (done)
-16. Scanning on demand (current)
-17. Compiling expressions
+16. Scanning on demand (done)
+17. Compiling expressions (current)
 18. Types of values
 19. Strings
 20. Hash tables
